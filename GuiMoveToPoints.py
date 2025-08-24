@@ -10,9 +10,9 @@ class UDPControlApp(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("UDP Control Panel")
-        self.x = 0
+        self.x = 200
         self.y = 0
-        self.z = 0
+        self.z = 200
         self.a = 0
         self.g = 0
 
@@ -35,7 +35,7 @@ class UDPControlApp(QWidget):
 
             btn_minus = QPushButton("←")
             btn_plus = QPushButton("→")
-            value_label = QLabel("0")
+            value_label = QLabel("?")
             value_label.setAlignment(Qt.AlignCenter)
             value_label.setFixedWidth(40)
             self.labels[label] = value_label
