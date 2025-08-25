@@ -17,7 +17,7 @@ class UDPControlApp(QWidget):
         self.g = 0
 
         # Setup UDP
-        self.udp_ip = "192.168.42.241"
+        self.udp_ip = "192.168.10.11"
         self.udp_port = 8888
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
