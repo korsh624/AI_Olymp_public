@@ -1,7 +1,7 @@
 import cv2
 import os
 # Путь к видеофайлу
-video_path = "flightcontrol.mp4"
+video_path = "input.avi"
 
 # Папка для сохранения кадров
 output_folder = "out"
